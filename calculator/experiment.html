@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <!-- Media CSS -->
+    <link rel="stylesheet" href="./assets/css/media.css">
+</head>
+<body>
+    <div class="justify-content-center align-items-center d-flex boxx">
+        <div class="calci text-center">
+            <div class="d-flex gap-2">
+                <input type="text" class="calci-box" placeholder="First no">
+                <input type="text" class="calci-box" placeholder="Sec no">
+                <input type="text" class="calci-box"placeholder="Result :">
+            </div>
+            <div class="content d-flex justify-content-between">
+                <button class="btn-box btn7">7</button>
+                <button class="btn-box btn8">8</button>
+                <button class="btn-box btn9">9</button>
+                <button class="btn-box mul-btn">*</button>
+            </div>
+            <div class="content d-flex justify-content-between mt-3">
+                <button class="btn-box btn4">4</button>
+                <button class="btn-box btn5">5</button>
+                <button class="btn-box btn6">6</button>
+                <button class="btn-box sub-btn">-</button>
+            </div>
+            <div class="content d-flex justify-content-between mt-3">
+                <button class="btn-box btn1">1</button>
+                <button class="btn-box btn2">2</button>
+                <button class="btn-box btn3">3</button>
+                <button class="btn-box sum-btn">+</button>
+            </div>
+            <div class="content d-flex justify-content-between mt-3">
+                <button class="btn-box btn0">0</button>
+                <button class="btn-box div-btn">/</button>
+                <button class="btn-box modulus-btn">%</button>
+                <button class="btn-box res-btn">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Jquery -->
+    <script src="./assets/js/jquery.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".btn7").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".btn8").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".btn9").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".btn4").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".btn5").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".btn6").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".btn1").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".btn2").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".btn3").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".btn0").on('click', function(){
+                let n1 = Number($(this).html());
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".sum-btn").on('click', function(){
+                let n1 = $(this).html();
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".sub-btn").on('click', function(){
+                let n1 = $(this).html();
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".mul-btn").on('click', function(){
+                let n1 = $(this).html();
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".div-btn").on('click', function(){
+                let n1 = $(this).html();
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".modulus-btn").on('click', function(){
+                let n1 = $(this).html();
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            $(".res-btn").on('click', function(){
+                let n1 = $(this).html();
+                $(".calci-box").val(n1);
+                console.log(n1);
+            });
+            
+        });
+    </script>
+</body>
+</html>
