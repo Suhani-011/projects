@@ -1,0 +1,55 @@
+@media(max-width:1400px) {
+    .calci{
+        width: 25%;
+    }
+}
+@media(max-width:1200px) {
+    .calci{
+        width: 28%;
+        padding: 25px 30px;
+    }
+}
+@media(max-width:992px) {
+    .calci{
+        width: 30%;
+        padding:22px 25px;
+    }
+    .btn-box{
+        padding: 6px 13px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+@media(max-width:768px) {
+    .calci{
+        width: 40%;
+        padding:22px 25px;
+    }
+    .btn-box{
+        padding: 8px 15px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media(max-width:576px) {
+     .calci{
+        width: 50%;
+        padding:22px 25px;
+    }
+    .btn-box{
+        padding: 8px 15px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media(max-width:480px){
+     .calci{
+        width: 70%;
+        padding:22px 25px;
+    }
+    .btn-box{
+        padding: 6px 12px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}

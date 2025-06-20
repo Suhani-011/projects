@@ -1,0 +1,42 @@
+.boxx{
+    background-color: #d3ecff;
+    height: 100%;
+    width: 100%;
+}
+.calci{
+    border: 1px solid #384450;
+    width: 20%;
+    margin: 350px 0px;
+    padding: 30px 40px;
+    background-color: #384450;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 8px;
+}
+.calci-box{
+    width: 100%;
+    padding: 7px;
+    text-align: right;
+    border-radius: 2px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.calci-box:focus{
+    outline: 0;
+}
+.content{
+    margin-top: 30px;
+}
+.btn-box{
+    padding: 8px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white; 
+    font-weight: 700;
+    background: #384450;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 7px;
+}

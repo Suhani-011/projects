@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <!-- Media CSS -->
+    <link rel="stylesheet" href="./assets/css/media.css">
+</head>
+<body>
+    <div class="justify-content-center align-items-center d-flex boxx">
+        <div class="calci text-center">
+            <div class="d-flex gap-2">
+                <input type="text" class="calci-box num1" placeholder="First no">
+                <input type="text" class="calci-box num2" placeholder="Sec no">
+                <input type="text" class="calci-box result"placeholder="Result :">
+            </div>
+            <div class="content d-flex justify-content-between">
+                <button class="btn-box mul-btn">*</button>
+                <button class="btn-box sub-btn">-</button>
+                <button class="btn-box sum-btn">+</button>
+                <button class="btn-box div-btn">/</button>
+                <button class="btn-box modulus-btn">%</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Jquery -->
+    <script src="./assets/js/jquery.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".sum-btn").on('click', function(){
+                let n1 = Number($(".num1").val());
+                let n2 = Number($(".num2").val());
+                $(".result").val(n1+n2);
+            });
+            $(".sub-btn").on('click', function(){
+                let n1 = Number($(".num1").val());
+                let n2 = Number($(".num2").val());
+                $(".result").val(n1-n2);
+            });
+            $(".mul-btn").on('click', function(){
+                let n1 = Number($(".num1").val());
+                let n2 = Number($(".num2").val());
+                $(".result").val(n1*n2);
+            });
+            $(".div-btn").on('click', function(){
+                let n1 = Number($(".num1").val());
+                let n2 = Number($(".num2").val());
+                $(".result").val(n1/n2);
+            });
+            $(".modulus-btn").on('click', function(){
+                let n1 = Number($(".num1").val());
+                let n2 = Number($(".num2").val());
+                $(".result").val(n1%n2);
+            }); 
+        });
+    </script>
+</body>
+</html>
